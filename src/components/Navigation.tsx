@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
-import logo from "../assets/Her Clinic01.avif"
+import logo from "../assets/logo.png"
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,10 +24,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <div className="p-2 bg-cream/20 rounded-full">
-              <Heart className="h-6 w-6 text-cream" />
             </div>
             {/* <span className="text-xl font-bold text-cream font-playfair">HERCLINIC</span> */}
-            <img src={logo} alt="" height="120px" width="120px"/>
+            <img src={logo} alt="" height="120px" width="150px"/>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
