@@ -9,6 +9,7 @@ import Doctor from './components/Doctor';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <BabyTreatments />
       <Testimonials />
       <Contact />
+      <Footer />
     </div>
   );
 }
